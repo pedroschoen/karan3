@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <math.h>
+
+
+
+int main()
+{
+    int n;
+    printf("Enter the number you want fibornachi sequence go to\n");
+    scanf("%d",&n);
+    int fibo0;
+    int c;
+    int aux;
+    fibo1;
+    fibo0=1;
+    fibo1=1;
+    
+    printf("\n%d",fibo1);
+    printf("\n%d",fibo2);
+    
+    for (c=1;c<999999999;c++)
+    {
+    aux=fibo1+fibo0;
+    fibo0=fibo1;
+    fibo1=aux;
+    if (aux>n)
+    {
+        break;
+    }
+    printf("\n%d",fibo2);
+    
+    }
+    
+    
+    return 0;
+}
